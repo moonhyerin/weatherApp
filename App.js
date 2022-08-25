@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from "react-native";
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Hallo~</Text>
+      <Text style={styles.text}>Weather App</Text>
       {/* 운영체제와 소통하는 컴포넌트인 StatusBar, 실제 화면에 렌더링되지 않는다! */}
       <StatusBar style="auto" />
     </View>
